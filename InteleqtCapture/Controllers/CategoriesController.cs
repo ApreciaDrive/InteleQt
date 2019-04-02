@@ -1,68 +1,67 @@
-﻿using InteleqtCapture.Data;
-using InteleqtCapture.Models;
-using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using InteleqtCapture.Data;
+using InteleqtCapture.Models;
 
 namespace InteleqtCapture.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("CorsPolicy")]
-    public class AnnuitiesController : ControllerBase
+    public class CategoriesController : ControllerBase
     {
         private readonly CustomerContext _context;
 
-        public AnnuitiesController(CustomerContext context)
+        public CategoriesController(CustomerContext context)
         {
             _context = context;
         }
 
-        // GET: api/Annuities
+        // GET: api/Categories
         [HttpGet]
-        public IEnumerable<Annuity> Getannuities()
+        public IEnumerable<Category> Getcategories()
         {
-            return _context.annuities;
+            return _context.categories;
         }
 
-        // GET: api/Annuities/5
+        // GET: api/Categories/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetAnnuity([FromRoute] string id)
+        public async Task<IActionResult> GetCategory([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var annuity = await _context.annuities.FindAsync(id);
+            var category = await _context.categories.FindAsync(id);
 
-            if (annuity == null)
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return Ok(annuity);
+            return Ok(category);
         }
 
-        // PUT: api/Annuities/5
+        // PUT: api/Categories/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAnnuity([FromRoute] string id, [FromBody] Annuity annuity)
+        public async Task<IActionResult> PutCategory([FromRoute] int id, [FromBody] Category category)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != annuity.EntityId)
+            if (id != category.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(annuity).State = EntityState.Modified;
+            _context.Entry(category).State = EntityState.Modified;
 
             try
             {
@@ -70,7 +69,7 @@ namespace InteleqtCapture.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!AnnuityExists(id))
+                if (!CategoryExists(id))
                 {
                     return NotFound();
                 }
@@ -83,45 +82,45 @@ namespace InteleqtCapture.Controllers
             return NoContent();
         }
 
-        // POST: api/Annuities
+        // POST: api/Categories
         [HttpPost]
-        public async Task<IActionResult> PostAnnuity([FromBody] Annuity annuity)
+        public async Task<IActionResult> PostCategory([FromBody] Category category)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            _context.annuities.Add(annuity);
+            _context.categories.Add(category);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetAnnuity", new { id = annuity.EntityId }, annuity);
+            return CreatedAtAction("GetCategory", new { id = category.Id }, category);
         }
 
-        // DELETE: api/Annuities/5
+        // DELETE: api/Categories/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAnnuity([FromRoute] string id)
+        public async Task<IActionResult> DeleteCategory([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var annuity = await _context.annuities.FindAsync(id);
-            if (annuity == null)
+            var category = await _context.categories.FindAsync(id);
+            if (category == null)
             {
                 return NotFound();
             }
 
-            _context.annuities.Remove(annuity);
+            _context.categories.Remove(category);
             await _context.SaveChangesAsync();
 
-            return Ok(annuity);
+            return Ok(category);
         }
 
-        private bool AnnuityExists(string id)
+        private bool CategoryExists(int id)
         {
-            return _context.annuities.Any(e => e.EntityId == id);
+            return _context.categories.Any(e => e.Id == id);
         }
     }
 }

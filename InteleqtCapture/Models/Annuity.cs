@@ -13,6 +13,7 @@ namespace InteleqtCapture.Models
         public string EntityFullName { get; set; }
         public double AnnuityAmount { get; set; }
         public DateTimeOffset AnniversaryDate { get; set; }
+        public DateTimeOffset? CreatedAt { get; set; } = DateTimeOffset.Now;
         public DateTimeOffset StartDate { get; set; }
         public DateTimeOffset RenewalDate { get; set; }
 

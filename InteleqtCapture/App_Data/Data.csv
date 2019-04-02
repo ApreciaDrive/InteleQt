@@ -1,0 +1,271 @@
+PRODUCT,PRODUCT CATEGORY,ITEM,QTY,UNIT PRICE,VALUE,YEARLY MAINTENANCE,COMMENT
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Professional User 1 - 50,0,"21,648.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Professional User 51 - 100,0,"20,592.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Professional User 101 - 250,0,"19,536.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Professional User 251 - 500,0,"17,424.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Professional User 501 - 1000,0,"14,080.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Professional User 1001 - 2500,0,"10,912.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Professional User 2501 - 5000,0,"7,568.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 1 - 50,0,"12,320.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 1 - 50 (dual use),0,"16,016.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 51 - 100,0,"11,792.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 101 - 250,0,"11,088.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 251 - 500,0,"9,856.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 501 - 1000,0,"8,096.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 1001 - 2500,0,"6,160.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Qlik Sense Analyzer User 2501 - 5000,0,"4,400.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL),   Upgrade QS Analyzer to Professional,0,"9,328.00",0.00,0.00,Navigation and stories
+Qlik Sense,Existing Qlik Sense Production Sites (PERPETUAL),   Qlik Sense Enterprise Token 1 - 50,0,"21,648.00",0.00,0.00,Not for new clients
+Qlik Sense,Existing Qlik Sense Production Sites (PERPETUAL),   Qlik Sense Enterprise Token 51 - 100,0,"20,592.00",0.00,0.00,Not for new clients
+Qlik Sense,Existing Qlik Sense Production Sites (PERPETUAL),   Qlik Sense Enterprise Token 101 - 250,0,"19,536.00",0.00,0.00,Not for new clients
+Qlik Sense,Existing Qlik Sense Production Sites (PERPETUAL),   Qlik Sense Enterprise Token 251 - 500,0,"17,424.00",0.00,0.00,Not for new clients
+Qlik Sense,Existing Qlik Sense Production Sites (PERPETUAL),   Qlik Sense Enterprise Token 501 - 1000,0,"14,080.00",0.00,0.00,Not for new clients
+Qlik Sense,Existing Qlik Sense Production Sites (PERPETUAL),   Qlik Sense Enterprise Token 1001 - 2500,0,"10,912.00",0.00,0.00,Not for new clients
+Qlik Sense,Existing Qlik Sense Production Sites (PERPETUAL),   Qlik Sense Enterprise Token 2501 - 5000,0,"7,568.00",0.00,0.00,Not for new clients
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Development Site Limited 5,0,"54,032.00",0.00,0.00,5 Tokens
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Development Site Limited 10,0,"108,064.00",0.00,0.00,10 Tokens
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Development Site = Production,0,"252,032.00",0.00,0.00,Tokens = Production site (Tokens or Professional)
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Dev Site Prof/Analyer = Production,0,"252,032.00",0.00,0.00,Prof/Analyser User mix = Production site Professional)
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Test Site Limited 5,0,"54,032.00",0.00,0.00,5 Tokens
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Test Site Limited 10,0,"108,064.00",0.00,0.00,10 Tokens
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Test Site = Production,0,"252,032.00",0.00,0.00,Tokens = Production site (Tokens or Professional)
+Qlik Sense,Qlik Sense Development & Test Sites (PERPETUAL),   Qlik Sense Enterprise Dev Site Prof/Analyer = Production,0,"252,032.00",0.00,0.00,Prof/Analyser User mix = Production site Professional)
+Qlik Sense,Qlik Analytics Platform  (PERPETUAL),   Qlik Analytics Platform External Edition,0,"1,594,736.00",0.00,0.00,Configuration includes 4 Cores. Not for Commercial use.
+Qlik Sense,Qlik Analytics Platform  (PERPETUAL),   Additional No of CPU Cores,0,"797,456.00",0.00,0.00,
+Qlik Sense,Qlik Analytics Platform  (PERPETUAL),   Qlik Analytics Test Platform External Edition = PRODUCT,0,"252,032.00",0.00,0.00,Current Product = 4 cores
+Qlik Sense,Qlk Sense Enterprise CORE based (Get approval B4 quoting - PERPETUAL),   Qlik Sense Enterprise Core Based Site,0,"4,317,456.00",0.00,0.00,Configuration includes 4 Cores. NEEDS RVP/EVP APPROVAL
+Qlik Sense,Qlk Sense Enterprise CORE based (Get approval B4 quoting - PERPETUAL),   Additional No of CPU Cores,0,"1,079,408.00",0.00,0.00,Per Core
+Qlik Sense,Qlk Sense Enterprise CORE based (Get approval B4 quoting - PERPETUAL),   Qlik Sense Enterprise Core based Test Site = Production,0,"252,032.00",0.00,0.00,Match additional cores of Production site
+Qlik Sense,Upgrades (PERPETUAL),   Upgrade Qlik Sense Dev Site 5 to = Production,0,"198,000.00",0.00,0.00,5 Tokens
+Qlik Sense,Upgrades (PERPETUAL),   Upgrade Qlik Sense Dev Site 10 to = Production,0,"143,968.00",0.00,0.00,10 Tokens
+Qlik Sense,Upgrades (PERPETUAL),   Upgrade Qlik Sense Test Site 5 to = Production,0,"198,000.00",0.00,0.00,5 Tokens
+Qlik Sense,Upgrades (PERPETUAL),   Upgrade Qlik Sense Test Site 10 to = Production,0,"143,968.00",0.00,0.00,10 Tokens
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Professional User 1 - 50 (12 mths subs),0,"12,144.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Professional User 51 - 100 (12 mths subs),0,"11,616.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Professional User 101 - 250 (12 mths subs),0,"10,912.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Professional User 251 - 500 (12 mths subs),0,"9,856.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Professional User 501 - 1000 (12 mths subs),0,"7,920.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Professional User 1001 - 2500 (12 mths subs),0,"6,160.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Professional User 2501 - 5000 (12 mths subs),0,"4,400.00",0.00,0.00,Full self-service incl developers
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Analyzer User 1 - 50 (12 mths subs),0,"7,040.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Analyzer User 51 - 100 (12 mths subs),0,"6,688.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Analyzer User 101 - 250 (12 mths subs),0,"6,336.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Analyzer User 251 - 500 (12 mths subs),0,"5,632.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Analyzer User 501 - 1000 (12 mths subs),0,"4,576.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Analyzer User 1001 - 2500 (12 mths subs),0,"3,520.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Qlik Sense Analyzer User 2501 - 5000 (12 mths subs),0,"2,464.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense Enterprise 12 Month SUBSCRIPTION,   Upgrade QS Analyzer to Professional (subs),0,"5,104.00",0.00,0.00,Navigation and stories
+Qlik Sense,Qlik Sense CORE Site 12 Month SUBSCRIPTION - RVP/EVP Approval before Quote,   Qlik Sense Enterprise Core based subscription,0,"2,435,840.00",0.00,0.00,Per year subscription - 4 CORE
+Qlik Sense,Qlik Sense CORE Site 12 Month SUBSCRIPTION - RVP/EVP Approval before Quote,   QSE Core base Additional Core subscription,0,"608,960.00",0.00,0.00,Per year subscription - 1 CORE
+Qlik Sense,Qlik Sense CORE Site 12 Month SUBSCRIPTION - RVP/EVP Approval before Quote,   QSE Test Site Core based subscription,0,"142,560.00",0.00,0.00,Per year subscription - match production CORE count
+Qlik Sense,Qlik Analytics Platform External Edition SUBSCRIPTION,   QAP External Edition Subscription,0,"142,560.00",0.00,0.00,Per year subscription - 4 CORE - no commercial use
+Qlik Sense,Qlik Analytics Platform External Edition SUBSCRIPTION,   QAP Additional Core Subscription,0,"447,040.00",0.00,0.00,Per year subscription - 1 CORE
+Qlik Sense,Qlik Analytics Platform External Edition SUBSCRIPTION,   QAP External Edition Test Site Subscription,0,"142,560.00",0.00,0.00,Per year subscription - match production CORE count
+Qlik Sense,Qlik Cloud Business 12 month SUBSCRIPTION,   Qlik Sense Cloud Business User 12 month subscription,0,"142,560.00",0.00,0.00,"App 250MB max, HDD 500GB max, limited data connections"
+Qlik Geo Analytics,Qlik GeoAnalytics (PERPETUAL),   Qlik GeoAnalytics Base,0,"208,560.00",0.00,0.00,"Background maps, location lookups as well as geo calculations hosted."
+Qlik Geo Analytics,Qlik GeoAnalytics (PERPETUAL),   Qlik GeoAnalytics Enterprise Server,0,"567,776.00",0.00,0.00,"including Background maps,
+location lookups and geo calculations on premise. Includes a Enterprise Test Environment with a Local
+Server install."
+Qlik Geo Analytics,Qlik GeoAnalytics (PERPETUAL),   Qlik GeoAnalytics Test,0,"104,280.00",0.00,0.00,
+Qlik Geo Analytics,Qlik GeoAnalytics (PERPETUAL),   Upgrade to Qlik GeoAnalytics Enterprise,0,"359,216.00",0.00,0.00,
+Qlik Geo Analytics,Qlik GeoAnalytics (SUBSCRIPTION),   Qlik GeoAnalytics Base 12 mth,0,"117,920.00",0.00,0.00,"Background maps, location lookups as well as geo calculations hosted."
+Qlik Geo Analytics,Qlik GeoAnalytics (SUBSCRIPTION),   Qlik GeoAnalytics Enterprise Server 12 mth,0,"322,080.00",0.00,0.00,"including Background maps,
+location lookups and geo calculations on premise. Includes a Enterprise Test Environment with a Local
+Server install."
+Qlik Geo Analytics,Qlik GeoAnalytics (SUBSCRIPTION),   Qlik GeoAnalytics Test 12 mth,0,"59,840.00",0.00,0.00,
+Qlik Geo Analytics,Qlik GeoAnalytics (SUBSCRIPTION),   Upgrade to Qlik GeoAnalytics Enterprise 12 mth,0,"204,160.00",0.00,0.00,
+Qlik Geo Analytics,Qlik GeoAnalytics (SUBSCRIPTION),   Qlik Geocoding 1M Records 12mth,0,"108,240.00",0.00,0.00,
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView Small Business Edition Server,0,"122,496.00",0.00,0.00,
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView Enterprise Edition Server,0,"510,576.00",0.00,0.00,
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView Enterprise Additional Server,0,"510,576.00",0.00,0.00,
+Qlik Geo Analytics,SERVER  LICENSES,   Upgrade to Enterprise Edition Server,0,"388,080.00",0.00,0.00,From QlikView Small Business Edition Server
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView Enterprise Edition Test Server,0,"255,288.00",0.00,0.00,
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView SMB Edition Test Server,0,"61,248.00",0.00,0.00,
+Qlik Geo Analytics,SERVER  LICENSES,   Upgrade SMB Test to Enterprise Test Server,0,"194,040.00",0.00,0.00,From QlikView Small Business Edition Server
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView Extranet Server,0,"244,992.00",0.00,0.00,Order Extranet type CALs
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView Additional Extranet Server,0,"244,992.00",0.00,0.00,Order Extranet type CALs
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView Information Access Server,0,"1,020,976.00",0.00,0.00,See metrics
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView IAS Additional DOC,0,"1,020,976.00",0.00,0.00,See metrics
+Qlik Geo Analytics,SERVER  LICENSES,   QlikView IAS Additional Server,0,"1,020,976.00",0.00,0.00,See metrics
+Qlik Geo Analytics,QLIKVIEW CLIENT LICENSES,   QlikView Named CAL,0,"19,712.00",0.00,0.00,
+Qlik Geo Analytics,QLIKVIEW CLIENT LICENSES,   QlikView Document CAL,0,"5,104.00",0.00,0.00,
+Qlik Geo Analytics,QLIKVIEW CLIENT LICENSES,   QlikView Usage CALS,0,"1,408.00",0.00,0.00,
+Qlik Geo Analytics,QLIKVIEW CLIENT LICENSES,   QlikView Session CAL,0,"204,160.00",0.00,0.00,
+Qlik Geo Analytics,QLIKVIEW CLIENT LICENSES,   QlikView Extranet Session CAL,0,"40,832.00",0.00,0.00,
+Qlik Geo Analytics,SERVER MODULES,   QlikView Publisher,0,"306,240.00",0.00,0.00,
+Qlik Geo Analytics,SERVER MODULES,   QlikView Additional Distribution Service,0,"306,240.00",0.00,0.00,Addition server for a QlikView Publisher cluster
+Qlik Geo Analytics,SERVER MODULES,   QlikView Test Publisher,0,"153,120.00",0.00,0.00,
+Qlik Geo Analytics,SERVER MODULES,   QlikView Test Additional Distribution Service,0,"153,120.00",0.00,0.00,
+Qlik Geo Analytics,SERVER MODULES,   QlikView Workbench,0,"61,248.00",0.00,0.00,
+Qlik Geo Analytics,LOCAL CLIENT LICENSES,   QlikView Local Client,0,"19,712.00",0.00,0.00,
+Qlik Geo Analytics,SAP (PERPETUAL),   Qlik Connector powered by SAP NetWeaver,0,"328,592.00",0.00,0.00,
+Qlik Geo Analytics,SAP (PERPETUAL),   Qlik Test Connector powered by SAP NetWeaver,0,"164,296.00",0.00,0.00,
+Qlik Geo Analytics,SAP (SUBSCRIPTION),   Qlik Connector powered by SAP NetWeaver,0,"183,040.00",0.00,0.00,
+Qlik Geo Analytics,SAP (SUBSCRIPTION),   Qlik Test Connector powered by SAP NetWeaver,0,"91,520.00",0.00,0.00,
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik General Web Connector for JSON/XML/SOAP APIs,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Google AdSense Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Google AdWords Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Google Analytics Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Google BigQuery Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Google DoubleClick For Publishers (DFP),0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik MailChimp Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Microsoft Dynamics CRM Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik MongoDB Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik OData Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Sentiment Analysis & Text Analytics Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik SugarCRM Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Twitter Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik YouTube Analytics Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik YouTube Data Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Facebook Fan Pages & Groups Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Facebook Insights Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Google Search Console Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB CONNECTORS (Subscription),   Qlik Slack Connector,0,"40,832.00",0.00,0.00,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik General Web Connector for JSON/XML/SOAP APIs,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google AdSense Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google AdWords Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google Analytics Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google BigQuery Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google DoubleClick For Publishers (DFP),0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik MailChimp Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Microsoft Dynamics CRM Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik MongoDB Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik OData Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Sentiment Analysis & Text Analytics Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik SugarCRM Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Twitter Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik YouTube Analytics Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik YouTube Data Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Facebook Fan Pages & Groups Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Facebook Insights Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google Search Console Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Slack Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Geo Analytics,GEOQLIK SERVER  LICENSES,   GeoQlik Small Business Server,0,"56,320.00",0.00,0.00,
+Qlik Geo Analytics,GEOQLIK SERVER  LICENSES,   GeoQlik Enterprise Server,0,"88,000.00",0.00,0.00,
+Qlik Geo Analytics,GEOQLIK SERVER  LICENSES,   GeoQlik SB Development Server,0,"28,160.00",0.00,0.00,
+Qlik Geo Analytics,GEOQLIK SERVER  LICENSES,   GeoQlik Enterprise Development Server,0,"44,000.00",0.00,0.00,
+Qlik Geo Analytics,GEOQLIK CLIENT LICENSES,   GeoQlik Named CAL,0,"4,400.00",0.00,0.00,
+Qlik Geo Analytics,GEOQLIK CLIENT LICENSES,   GeoQlik Document CAL,0,"1,320.00",0.00,0.00,
+Qlik Geo Analytics,GEOQLIK CLIENT LICENSES,   GeoQlik Session CAL,0,"46,200.00",0.00,0.00,
+Qlik Geo Analytics,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik consulting days,0,"8,400.00",0.00,,Daily rate
+Qlik Geo Analytics,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik Fast Start (17 days),0,"142,800.00",0.00,,2 install/configure + one Qlik App 15 days
+Qlik Geo Analytics,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik Essentials: Launch (25 days),0,"210,000.00",0.00,,Qlik Fast Start extended for Qlik skill development
+Qlik Geo Analytics,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik NPrinting Foundation (5 days),0,"42,000.00",0.00,,Install/configure and coaching - 5 days
+Qlik Geo Analytics,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik GeoAnalytics Foundation (5 days),0,"42,000.00",0.00,,Install/configure and coaching - 5 days
+Qlik Geo Analytics,Qlik Sense Training - delegate rate ex VAT,   Qlik Sense for QlikView Developers Workshop,0,"3,250.00",0.00,,"1 day, South African classroom"
+Qlik Geo Analytics,Qlik Sense Training - delegate rate ex VAT,   Create Visualizations with Qlik Sense Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Qlik Geo Analytics,Qlik Sense Training - delegate rate ex VAT,   Data Modeling for Qlik Sense Course,0,"9,750.00",0.00,,"3 day, South African classroom"
+Qlik Geo Analytics,Qlik Sense Training - delegate rate ex VAT,   Deploy and Administer Qlik Sense Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Qlik Geo Analytics,Qlik Sense Training - delegate rate ex VAT,   Create Mashups with Qlik Sense Course,0,"3,250.00",0.00,,"1 day, South African classroom"
+Qlik Geo Analytics,QlikView Training - delegate rate ex VAT,   QlikView Designer Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Qlik Geo Analytics,QlikView Training - delegate rate ex VAT,   QlikView Developer Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Qlik Geo Analytics,QlikView Training - delegate rate ex VAT,   QlikView Methods & Visualisation Workshop,0,"6,500.00",0.00,,"2 day, South African classroom"
+Qlik Geo Analytics,QlikView Training - delegate rate ex VAT,   QlikView Solution Design Workshop,0,"6,500.00",0.00,,"2 day, South African classroom"
+Qlik Geo Analytics,QlikView Training - delegate rate ex VAT,   QlikView Server Administration Workshop,0,"4,200.00",0.00,,"half-day - ex travel, accommodation"
+Qlik Geo Analytics,QlikView Training - delegate rate ex VAT,   QlikView Publisher Administration Workshop,0,"8,400.00",0.00,,"1 day - ex travel, accommodation"
+NPrinting,Qlik NPrinting (PERPETUAL),   Qlik NPrinting Server,0,"503,712.00",0.00,0.00,
+NPrinting,Qlik NPrinting (PERPETUAL),   Qlik NPrinting Server Additional Engines,0,"359,744.00",0.00,0.00,
+NPrinting,Qlik NPrinting (PERPETUAL),   Qlik NPrinting Test Server,0,"251,856.00",0.00,0.00,
+NPrinting,Qlik NPrinting (PERPETUAL),   Qlik NPrinting SMB Server,0,"179,872.00",0.00,0.00,"max 250 recipients and 2 Developers; no additional engines allowed, restricted to
+commercial market only"
+NPrinting,Qlik NPrinting (PERPETUAL),   Qlik NPrinting SMB Test Server,0,"89,936.00",0.00,0.00,"max 250 recipients and 2 Developers; no additional engines allowed, restricted to
+commercial market only"
+NPrinting,Upgrades (PERPETUAL),   Upgrade Qlik NPrinting SMB Server,0,"323,840.00",0.00,0.00,
+NPrinting,Upgrades (PERPETUAL),   Upgrade Qlik NPrinting SMB Test Server,0,"161,920.00",0.00,0.00,
+NPrinting,Qlik NPrinting (SUBSCRIPTION),   Qlik NPrinting Server 12 mth,0,"283,360.00",0.00,,
+NPrinting,Qlik NPrinting (SUBSCRIPTION),   Qlik NPrinting Server Additional Engines 12 mth,0,"202,400.00",0.00,,
+NPrinting,Qlik NPrinting (SUBSCRIPTION),   Qlik NPrinting Test Server 12 mth,0,"142,560.00",0.00,,
+NPrinting,Qlik NPrinting (SUBSCRIPTION),   Qlik NPrinting SMB Server 12 mth,0,"100,320.00",0.00,,"max 250 recipients and 2 Developers; no additional engines allowed, restricted to
+commercial market only"
+NPrinting,Qlik NPrinting (SUBSCRIPTION),   Qlik NPrinting SMB Test Server 12 mth,0,"51,040.00",0.00,,"max 250 recipients and 2 Developers; no additional engines allowed, restricted to
+commercial market only"
+NPrinting,Upgrades (SUBSCRIPTION),   Upgrade Qlik NPrinting SMB Server 12 mth,0,"183,040.00",0.00,,
+NPrinting,Upgrades (SUBSCRIPTION),   Upgrade Qlik NPrinting SMB Test Server 12 mth,0,"91,520.00",0.00,,
+QlikVeiw,SERVER  LICENSES,   QlikView Small Business Edition Server,0,"122,496.00",0.00,0.00,
+QlikVeiw,SERVER  LICENSES,   QlikView Enterprise Edition Server,0,"510,576.00",0.00,0.00,
+QlikVeiw,SERVER  LICENSES,   QlikView Enterprise Additional Server,0,"510,576.00",0.00,0.00,
+QlikVeiw,SERVER  LICENSES,   Upgrade to Enterprise Edition Server,0,"388,080.00",0.00,0.00,From QlikView Small Business Edition Server
+QlikVeiw,SERVER  LICENSES,   QlikView Enterprise Edition Test Server,0,"255,288.00",0.00,0.00,
+QlikVeiw,SERVER  LICENSES,   QlikView SMB Edition Test Server,0,"61,248.00",0.00,0.00,
+QlikVeiw,SERVER  LICENSES,   Upgrade SMB Test to Enterprise Test Server,0,"194,040.00",0.00,0.00,From QlikView Small Business Edition Server
+QlikVeiw,SERVER  LICENSES,   QlikView Extranet Server,0,"244,992.00",0.00,0.00,Order Extranet type CALs
+QlikVeiw,SERVER  LICENSES,   QlikView Additional Extranet Server,0,"244,992.00",0.00,0.00,Order Extranet type CALs
+QlikVeiw,SERVER  LICENSES,   QlikView Information Access Server,0,"1,020,976.00",0.00,0.00,See metrics
+QlikVeiw,SERVER  LICENSES,   QlikView IAS Additional DOC,0,"1,020,976.00",0.00,0.00,See metrics
+QlikVeiw,SERVER  LICENSES,   QlikView IAS Additional Server,0,"1,020,976.00",0.00,0.00,See metrics
+QlikVeiw,QLIKVIEW CLIENT LICENSES,   QlikView Named CAL,0,"19,712.00",0.00,0.00,
+QlikVeiw,QLIKVIEW CLIENT LICENSES,   QlikView Document CAL,0,"5,104.00",0.00,0.00,
+QlikVeiw,QLIKVIEW CLIENT LICENSES,   QlikView Usage CALS,0,"1,408.00",0.00,0.00,
+QlikVeiw,QLIKVIEW CLIENT LICENSES,   QlikView Session CAL,0,"204,160.00",0.00,0.00,
+QlikVeiw,QLIKVIEW CLIENT LICENSES,   QlikView Extranet Session CAL,0,"40,832.00",0.00,0.00,
+QlikVeiw,SERVER MODULES,   QlikView Publisher,0,"306,240.00",0.00,0.00,
+QlikVeiw,SERVER MODULES,   QlikView Additional Distribution Service,0,"306,240.00",0.00,0.00,Addition server for a QlikView Publisher cluster
+QlikVeiw,SERVER MODULES,   QlikView Test Publisher,0,"153,120.00",0.00,0.00,
+QlikVeiw,SERVER MODULES,   QlikView Test Additional Distribution Service,0,"153,120.00",0.00,0.00,
+QlikVeiw,SERVER MODULES,   QlikView Workbench,0,"61,248.00",0.00,0.00,
+QlikVeiw,LOCAL CLIENT LICENSES,   QlikView Local Client,0,"19,712.00",0.00,0.00,
+Qlik Connectors,SAP (PERPETUAL),   Qlik Connector powered by SAP NetWeaver,0,"328,592.00",0.00,0.00,
+Qlik Connectors,SAP (PERPETUAL),   Qlik Test Connector powered by SAP NetWeaver,0,"164,296.00",0.00,0.00,
+Qlik Connectors,SAP (SUBSCRIPTION),   Qlik Connector powered by SAP NetWeaver,0,"183,040.00",0.00,,
+Qlik Connectors,SAP (SUBSCRIPTION),   Qlik Test Connector powered by SAP NetWeaver,0,"91,520.00",0.00,,
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik General Web Connector for JSON/XML/SOAP APIs,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Google AdSense Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Google AdWords Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Google Analytics Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Google BigQuery Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Google DoubleClick For Publishers (DFP),0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik MailChimp Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Microsoft Dynamics CRM Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik MongoDB Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik OData Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Sentiment Analysis & Text Analytics Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik SugarCRM Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Twitter Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik YouTube Analytics Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik YouTube Data Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Facebook Fan Pages & Groups Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Facebook Insights Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Google Search Console Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB CONNECTORS (Subscription),   Qlik Slack Connector,0,"40,832.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik General Web Connector for JSON/XML/SOAP APIs,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google AdSense Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google AdWords Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google Analytics Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google BigQuery Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google DoubleClick For Publishers (DFP),0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik MailChimp Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Microsoft Dynamics CRM Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik MongoDB Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik OData Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Sentiment Analysis & Text Analytics Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik SugarCRM Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Twitter Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik YouTube Analytics Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik YouTube Data Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Facebook Fan Pages & Groups Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Facebook Insights Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Google Search Console Connector,0,"20,416.00",0.00,,12 Month Subscription
+Qlik Connectors,QLIK WEB TEST CONNECTORS (Subscription),   Qlik Slack Connector,0,"20,416.00",0.00,,12 Month Subscription
+GeoQlik,GEOQLIK SERVER  LICENSES,   GeoQlik Small Business Server,0,"56,320.00",0.00,0.00,
+GeoQlik,GEOQLIK SERVER  LICENSES,   GeoQlik Enterprise Server,0,"88,000.00",0.00,0.00,
+GeoQlik,GEOQLIK SERVER  LICENSES,   GeoQlik SB Development Server,0,"28,160.00",0.00,0.00,
+GeoQlik,GEOQLIK SERVER  LICENSES,   GeoQlik Enterprise Development Server,0,"44,000.00",0.00,0.00,
+GeoQlik,GEOQLIK CLIENT LICENSES,   GeoQlik Named CAL,0,"4,400.00",0.00,0.00,
+GeoQlik,GEOQLIK CLIENT LICENSES,   GeoQlik Document CAL,0,"1,320.00",0.00,0.00,
+GeoQlik,GEOQLIK CLIENT LICENSES,   GeoQlik Session CAL,0,"46,200.00",0.00,0.00,
+Services,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik consulting days,0,"8,400.00",0.00,,Daily rate
+Services,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik Fast Start (17 days),0,"142,800.00",0.00,,2 install/configure + one Qlik App 15 days
+Services,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik Essentials: Launch (25 days),0,"210,000.00",0.00,,Qlik Fast Start extended for Qlik skill development
+Services,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik NPrinting Foundation (5 days),0,"42,000.00",0.00,,Install/configure and coaching - 5 days
+Services,"Qlik Consulting - ex VAT, travel, accommodation",   Qlik GeoAnalytics Foundation (5 days),0,"42,000.00",0.00,,Install/configure and coaching - 5 days
+Services,Qlik Sense Training - delegate rate ex VAT,   Qlik Sense for QlikView Developers Workshop,0,"3,250.00",0.00,,"1 day, South African classroom"
+Services,Qlik Sense Training - delegate rate ex VAT,   Create Visualizations with Qlik Sense Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Services,Qlik Sense Training - delegate rate ex VAT,   Data Modeling for Qlik Sense Course,0,"9,750.00",0.00,,"3 day, South African classroom"
+Services,Qlik Sense Training - delegate rate ex VAT,   Deploy and Administer Qlik Sense Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Services,Qlik Sense Training - delegate rate ex VAT,   Create Mashups with Qlik Sense Course,0,"3,250.00",0.00,,"1 day, South African classroom"
+Services,QlikView Training - delegate rate ex VAT,   QlikView Designer Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Services,QlikView Training - delegate rate ex VAT,   QlikView Developer Course,0,"6,500.00",0.00,,"2 day, South African classroom"
+Services,QlikView Training - delegate rate ex VAT,   QlikView Methods & Visualisation Workshop,0,"6,500.00",0.00,,"2 day, South African classroom"
+Services,QlikView Training - delegate rate ex VAT,   QlikView Solution Design Workshop,0,"6,500.00",0.00,,"2 day, South African classroom"
+Services,QlikView Training - delegate rate ex VAT,   QlikView Server Administration Workshop,0,"4,200.00",0.00,,"half-day - ex travel, accommodation"
+Services,QlikView Training - delegate rate ex VAT,   QlikView Publisher Administration Workshop,0,"8,400.00",0.00,,"1 day - ex travel, accommodation"

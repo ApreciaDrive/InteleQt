@@ -18,7 +18,7 @@ namespace InteleqtCapture.Data
                 context.Database.EnsureCreated();
 
                 if (context.annuities != null && context.annuities.Any())
-                    return;   // DB has already been seeded
+                    return;   // db has already been seeded
 
                 var annuities = GetAnnuities().ToArray();
                 context.annuities.AddRange(annuities);
@@ -26,6 +26,13 @@ namespace InteleqtCapture.Data
 
                 var maintenances = GetMaintenances().ToArray();
                 context.maintenances.AddRange(maintenances);
+                context.SaveChanges();
+
+
+                var products = GetValuesFromCSV().ToArray();
+                context.products.RemoveRange(context.products);
+                context.SaveChanges();
+                context.products.AddRange(products);
                 context.SaveChanges();
             }
         }
@@ -47,6 +54,12 @@ namespace InteleqtCapture.Data
               new Maintenance {EntityId="800000D1-1464172818", EntityFullName="McDonalds", StartDate=new DateTime(2018, 6, 28), RenewalDate= new DateTime(2019,6,28), Quantity=4, Item="Qlik Sense Professional User 51 - 100", Product="Qlik Sense", ProductCategory="Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL)", UnitPrice=20592, Value=0, YearlyMaintenance=0},
             };
             return maintenances;
+        }
+        
+        public static List<Product> GetValuesFromCSV()
+        {
+            var reader = new helper.helper();
+            return reader.ReadProducts();
         }
     }
 }

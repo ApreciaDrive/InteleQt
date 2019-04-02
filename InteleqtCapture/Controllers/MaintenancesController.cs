@@ -86,6 +86,8 @@ namespace InteleqtCapture.Controllers
         [HttpPost]
         public async Task<IActionResult> PostMaintenance([FromBody] Maintenance maintenance)
         {
+            maintenance.CreatedAt = DateTime.Now;
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);

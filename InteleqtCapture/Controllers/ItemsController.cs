@@ -1,68 +1,67 @@
-﻿using InteleqtCapture.Data;
-using InteleqtCapture.Models;
-using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using InteleqtCapture.Data;
+using InteleqtCapture.Models;
 
 namespace InteleqtCapture.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("CorsPolicy")]
-    public class AnnuitiesController : ControllerBase
+    public class ItemsController : ControllerBase
     {
         private readonly CustomerContext _context;
 
-        public AnnuitiesController(CustomerContext context)
+        public ItemsController(CustomerContext context)
         {
             _context = context;
         }
 
-        // GET: api/Annuities
+        // GET: api/Items
         [HttpGet]
-        public IEnumerable<Annuity> Getannuities()
+        public IEnumerable<Item> Getitems()
         {
-            return _context.annuities;
+            return _context.items;
         }
 
-        // GET: api/Annuities/5
+        // GET: api/Items/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetAnnuity([FromRoute] string id)
+        public async Task<IActionResult> GetItem([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var annuity = await _context.annuities.FindAsync(id);
+            var item = await _context.items.FindAsync(id);
 
-            if (annuity == null)
+            if (item == null)
             {
                 return NotFound();
             }
 
-            return Ok(annuity);
+            return Ok(item);
         }
 
-        // PUT: api/Annuities/5
+        // PUT: api/Items/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAnnuity([FromRoute] string id, [FromBody] Annuity annuity)
+        public async Task<IActionResult> PutItem([FromRoute] int id, [FromBody] Item item)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != annuity.EntityId)
+            if (id != item.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(annuity).State = EntityState.Modified;
+            _context.Entry(item).State = EntityState.Modified;
 
             try
             {
@@ -70,7 +69,7 @@ namespace InteleqtCapture.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!AnnuityExists(id))
+                if (!ItemExists(id))
                 {
                     return NotFound();
                 }
@@ -83,45 +82,45 @@ namespace InteleqtCapture.Controllers
             return NoContent();
         }
 
-        // POST: api/Annuities
+        // POST: api/Items
         [HttpPost]
-        public async Task<IActionResult> PostAnnuity([FromBody] Annuity annuity)
+        public async Task<IActionResult> PostItem([FromBody] Item item)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            _context.annuities.Add(annuity);
+            _context.items.Add(item);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetAnnuity", new { id = annuity.EntityId }, annuity);
+            return CreatedAtAction("GetItem", new { id = item.Id }, item);
         }
 
-        // DELETE: api/Annuities/5
+        // DELETE: api/Items/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAnnuity([FromRoute] string id)
+        public async Task<IActionResult> DeleteItem([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var annuity = await _context.annuities.FindAsync(id);
-            if (annuity == null)
+            var item = await _context.items.FindAsync(id);
+            if (item == null)
             {
                 return NotFound();
             }
 
-            _context.annuities.Remove(annuity);
+            _context.items.Remove(item);
             await _context.SaveChangesAsync();
 
-            return Ok(annuity);
+            return Ok(item);
         }
 
-        private bool AnnuityExists(string id)
+        private bool ItemExists(int id)
         {
-            return _context.annuities.Any(e => e.EntityId == id);
+            return _context.items.Any(e => e.Id == id);
         }
     }
 }

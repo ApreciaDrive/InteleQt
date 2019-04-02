@@ -11,6 +11,7 @@ namespace InteleqtCapture.Models
         [Key]
         public string EntityId { get; set; }
         public string EntityFullName { get; set; }
+        public DateTimeOffset? CreatedAt { get; set; }
         public DateTimeOffset StartDate { get; set; }
         public DateTimeOffset RenewalDate { get; set; }
         public string Product { get; set; }
