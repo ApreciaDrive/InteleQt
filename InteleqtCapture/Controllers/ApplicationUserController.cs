@@ -6,6 +6,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
+using System.Net;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,25 +58,32 @@ namespace InteleqtCapture.Controllers
         //POST: /api/AplicationUser/Login
         public async Task<IActionResult> Login(Login model)
         {
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            if(user != null && await _userManager.CheckPasswordAsync(user,model.Password))
+            try
             {
-                var tokenDiscriptor = new SecurityTokenDescriptor
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if(user == null)
                 {
-                    Subject = new ClaimsIdentity(new Claim[] {
+                    return StatusCode(400, BadRequest(new { message = "Invalid email/password combination." }));
+                } else
+                {
+                    var tokenDiscriptor = new SecurityTokenDescriptor
+                    {
+                        Subject = new ClaimsIdentity(new Claim[] {
                         new Claim("UserID",user.Id.ToString())
                     }),
-                    Expires = DateTime.UtcNow.AddHours(1),
-                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.JWT_Secret)), SecurityAlgorithms.HmacSha256Signature)
-                };
+                        Expires = DateTime.UtcNow.AddHours(1),
+                        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.JWT_Secret)), SecurityAlgorithms.HmacSha256Signature)
+                    };
 
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var securityToken = tokenHandler.CreateToken(tokenDiscriptor);
-                var token = tokenHandler.WriteToken(securityToken);
-                return Ok(new { token });
-            } else
+                    var tokenHandler = new JwtSecurityTokenHandler();
+                    var securityToken = tokenHandler.CreateToken(tokenDiscriptor);
+                    var token = tokenHandler.WriteToken(securityToken);
+                    return Ok(new { token });
+                }
+            }
+            catch (Exception)
             {
-                return BadRequest(new { message = "Email or password is Incorrect"});
+                return StatusCode(500, BadRequest(new { message = "An error occured, please try again." }));
             }
         }
     }

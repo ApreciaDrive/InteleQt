@@ -1,5 +1,6 @@
 ﻿using InteleqtCapture.Data;
 using InteleqtCapture.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace InteleqtCapture.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("CorsPolicy")]
+    [Authorize]
     public class AnnuitiesController : ControllerBase
     {
         private readonly CustomerContext _context;

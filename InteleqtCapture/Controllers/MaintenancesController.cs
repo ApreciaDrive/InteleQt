@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using InteleqtCapture.Data;
 using InteleqtCapture.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace InteleqtCapture.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class MaintenancesController : ControllerBase
     {
         private readonly CustomerContext _context;
