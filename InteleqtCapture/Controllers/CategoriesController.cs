@@ -25,7 +25,8 @@ namespace InteleqtCapture.Controllers
         [HttpGet]
         public IEnumerable<Category> Getcategories()
         {
-            return _context.categories;
+            return _context.categories
+                .Include(p => p.Items);
         }
 
         // GET: api/Categories/5
@@ -37,7 +38,9 @@ namespace InteleqtCapture.Controllers
                 return BadRequest(ModelState);
             }
 
-            var category = await _context.categories.FindAsync(id);
+            var category = await _context.categories
+                .Include(i => i.Items)
+                .FirstOrDefaultAsync(a => a.Id == id);
 
             if (category == null)
             {

@@ -1,12 +1,10 @@
-﻿using System;
+﻿using InteleqtCapture.Data;
+using InteleqtCapture.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using InteleqtCapture.Data;
-using InteleqtCapture.Models;
 
 namespace InteleqtCapture.Controllers
 {
@@ -25,7 +23,10 @@ namespace InteleqtCapture.Controllers
         [HttpGet]
         public IEnumerable<Product> Getproducts()
         {
-            return _context.products;
+            return  _context.products
+                .Include(c => c.Categories)
+                .ThenInclude(c => c.Items);
+            
         }
 
         // GET: api/Products/5
@@ -37,7 +38,10 @@ namespace InteleqtCapture.Controllers
                 return BadRequest(ModelState);
             }
 
-            var product = await _context.products.FindAsync(id);
+            var product = await _context.products
+                .Include(c => c.Categories)
+                .ThenInclude(c => c.Items)
+                .FirstOrDefaultAsync(i => i.Id == id);
 
             if (product == null)
             {

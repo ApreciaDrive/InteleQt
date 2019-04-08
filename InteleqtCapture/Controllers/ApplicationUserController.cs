@@ -71,7 +71,7 @@ namespace InteleqtCapture.Controllers
                         Subject = new ClaimsIdentity(new Claim[] {
                         new Claim("UserID",user.Id.ToString())
                     }),
-                        Expires = DateTime.UtcNow.AddHours(1),
+                        //Expires = DateTime.UtcNow.AddHours(1),
                         SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.JWT_Secret)), SecurityAlgorithms.HmacSha256Signature)
                     };
 

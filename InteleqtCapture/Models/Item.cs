@@ -22,7 +22,5 @@ namespace InteleqtCapture.Models
                 _name = string.IsNullOrEmpty(value) ? value.Trim() : value;
             }
         }
-        public int CategoryId { get; set; }
-        public virtual Category Category { get; set; }
     }
 }

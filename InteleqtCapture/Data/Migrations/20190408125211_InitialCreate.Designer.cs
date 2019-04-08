@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InteleqtCapture.Data.Migrations
 {
     [DbContext(typeof(CustomerContext))]
-    [Migration("20190401093325_Authentication")]
-    partial class Authentication
+    [Migration("20190408125211_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -51,7 +51,7 @@ namespace InteleqtCapture.Data.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<int>("ProductId");
+                    b.Property<int?>("ProductId");
 
                     b.HasKey("Id");
 
@@ -66,7 +66,7 @@ namespace InteleqtCapture.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CategoryId");
+                    b.Property<int?>("CategoryId");
 
                     b.Property<string>("Name");
 
@@ -296,7 +296,7 @@ namespace InteleqtCapture.Data.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<string>("firstName")
+                    b.Property<string>("FullName")
                         .HasColumnType("nvarchar(150)");
 
                     b.ToTable("ApplicationUser");
@@ -306,18 +306,16 @@ namespace InteleqtCapture.Data.Migrations
 
             modelBuilder.Entity("InteleqtCapture.Models.Category", b =>
                 {
-                    b.HasOne("InteleqtCapture.Models.Product", "Product")
+                    b.HasOne("InteleqtCapture.Models.Product")
                         .WithMany("Categories")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("ProductId");
                 });
 
             modelBuilder.Entity("InteleqtCapture.Models.Item", b =>
                 {
-                    b.HasOne("InteleqtCapture.Models.Category", "Category")
+                    b.HasOne("InteleqtCapture.Models.Category")
                         .WithMany("Items")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("CategoryId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
