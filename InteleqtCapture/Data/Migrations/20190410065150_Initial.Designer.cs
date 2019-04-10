@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InteleqtCapture.Data.Migrations
 {
     [DbContext(typeof(CustomerContext))]
-    [Migration("20190408125211_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20190410065150_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -101,8 +101,6 @@ namespace InteleqtCapture.Data.Migrations
                     b.Property<double>("UnitPrice");
 
                     b.Property<int>("Value");
-
-                    b.Property<int>("YearlyMaintenance");
 
                     b.HasKey("EntityId");
 

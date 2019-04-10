@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace InteleqtCapture.Data.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -77,11 +77,10 @@ namespace InteleqtCapture.Data.Migrations
                     RenewalDate = table.Column<DateTimeOffset>(nullable: false),
                     Product = table.Column<string>(nullable: true),
                     ProductCategory = table.Column<string>(nullable: true),
+                    Item = table.Column<string>(nullable: true),
                     Quantity = table.Column<int>(nullable: false),
                     UnitPrice = table.Column<double>(nullable: false),
-                    Value = table.Column<int>(nullable: false),
-                    YearlyMaintenance = table.Column<int>(nullable: false),
-                    Item = table.Column<string>(nullable: true)
+                    Value = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

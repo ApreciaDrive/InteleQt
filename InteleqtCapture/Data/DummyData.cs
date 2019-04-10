@@ -20,6 +20,12 @@ namespace InteleqtCapture.Data
                 if (context.annuities != null && context.annuities.Any())
                     return;   // db has already been seeded
 
+                var products = GetValuesFromCSV().ToArray();
+                context.products.RemoveRange(context.products);
+                context.SaveChanges();
+                context.products.AddRange(products);
+                context.SaveChanges();
+
                 var annuities = GetAnnuities().ToArray();
                 context.annuities.AddRange(annuities);
                 context.SaveChanges();
@@ -29,11 +35,6 @@ namespace InteleqtCapture.Data
                 context.SaveChanges();
 
 
-                var products = GetValuesFromCSV().ToArray();
-                context.products.RemoveRange(context.products);
-                context.SaveChanges();
-                context.products.AddRange(products);
-                context.SaveChanges();
             }
         }
 
@@ -50,8 +51,8 @@ namespace InteleqtCapture.Data
         public static List<Maintenance> GetMaintenances()
         {
             List<Maintenance> maintenances = new List<Maintenance>() {
-              new Maintenance {EntityId="800000D4-1466598197", EntityFullName="DGB", StartDate=new DateTime(2018, 5, 5), RenewalDate= new DateTime(2019,5,5), Quantity=3, Item="Qlik Sense Professional User 101 - 250", Product="Qlik Sense", ProductCategory="Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL)", UnitPrice=19536, Value=0, YearlyMaintenance=0},
-              new Maintenance {EntityId="800000D1-1464172818", EntityFullName="McDonalds", StartDate=new DateTime(2018, 6, 28), RenewalDate= new DateTime(2019,6,28), Quantity=4, Item="Qlik Sense Professional User 51 - 100", Product="Qlik Sense", ProductCategory="Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL)", UnitPrice=20592, Value=0, YearlyMaintenance=0},
+              new Maintenance {EntityId="800000D4-1466598197", EntityFullName="DGB", StartDate=new DateTime(2018, 5, 5), RenewalDate= new DateTime(2019,5,5), Quantity=3, Item="Qlik Sense Professional User 101 - 250", Product="Qlik Sense", ProductCategory="Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL)", UnitPrice=19536, Value=0},
+              new Maintenance {EntityId="800000D1-1464172818", EntityFullName="McDonalds", StartDate=new DateTime(2018, 6, 28), RenewalDate= new DateTime(2019,6,28), Quantity=4, Item="Qlik Sense Professional User 51 - 100", Product="Qlik Sense", ProductCategory="Qlik Sense Enterprise Prof/Analyser Prod Sites (PERPETUAL)", UnitPrice=20592, Value=0},
             };
             return maintenances;
         }

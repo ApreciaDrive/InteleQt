@@ -23,9 +23,7 @@ namespace InteleqtCapture.Controllers
         [HttpGet]
         public IEnumerable<Product> Getproducts()
         {
-            return  _context.products
-                .Include(c => c.Categories)
-                .ThenInclude(c => c.Items);
+            return _context.products;
             
         }
 

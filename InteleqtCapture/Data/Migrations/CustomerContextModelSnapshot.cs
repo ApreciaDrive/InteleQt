@@ -100,8 +100,6 @@ namespace InteleqtCapture.Data.Migrations
 
                     b.Property<int>("Value");
 
-                    b.Property<int>("YearlyMaintenance");
-
                     b.HasKey("EntityId");
 
                     b.ToTable("maintenances");

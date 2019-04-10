@@ -25,8 +25,7 @@ namespace InteleqtCapture.Controllers
         [HttpGet]
         public IEnumerable<Category> Getcategories()
         {
-            return _context.categories
-                .Include(p => p.Items);
+            return _context.categories;
         }
 
         // GET: api/Categories/5
